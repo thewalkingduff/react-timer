@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+body {
+    background: #FCE77D;
+    color: #FCE77D;
+    font-family: 'Happy Monkey', cursive;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-template-rows: 1fr;
+    align-items: center;
+
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-template-rows: 1fr;
+    align-items: center;
+    font-size: 1.5rem;
+    background: #F96167;
+    border-radius: 50%;
+    height: 37.5rem;
+    width: 37.5rem;
+    margin: 2rem auto;
+
+}
+
+@media screen and (max-width: 768px){
+    main {
+        font-size: .75rem;
+        height: 20rem;
+        width: 20rem;
+        margin: 5rem auto;
+}
+}
